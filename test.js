@@ -1,7 +1,7 @@
 // test-connection.js
 async function test() {
   try {
-    const res = await fetch('https://generativelanguage.googleapis.com/v1beta/models?key=AIzaSyB8rbX2L1HgLdWexaK8Vdl2KY9Yw68Ef9Y');
+    const res = await fetch('https://generativelanguage.googleapis.com/v1beta/models?key={Your_Api_Key}');
     console.log("Status:", res.status);
     const data = await res.json();
     console.log("Success!");
