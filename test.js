@@ -1,4 +1,5 @@
-// test-connection.js
+// test.js -- 
+// This file is for diagnostic purpose only and is used to troubleshoot Google API connectivity issues. This file has no application in project.
 async function test() {
   try {
     const res = await fetch('https://generativelanguage.googleapis.com/v1beta/models?key={Your_Api_Key}');
